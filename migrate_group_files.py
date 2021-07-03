@@ -8,7 +8,7 @@ from botocore.exceptions import ClientError
 
 def main():
 # "bucket_name" should be your bucket name
-    bucket_name = "rmsdata2020temp"
+    bucket_name = "*****2020temp"
 
     try:
         s3 = boto3.resource('s3')
